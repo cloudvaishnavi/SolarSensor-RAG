@@ -1,0 +1,27 @@
+{
+  "question_id": "S09",
+  "category": "synthesis",
+  "question": "Can a household in a special category state receive more than Rs. 78,000 in subsidy? How?",
+  "retrieved_sources": [
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "**Yes**, a household in a special category state can receive more than Rs. 78,000 in subsidy. This happens through the higher Central Financial Assistance (CFA) rate slab for special category states, as well as optional additional state-level subsidies:\n\n1. **Higher Central Financial Assistance (CFA) Rates:**\n   For Special Category States/UTs (Uttarakhand, Himachal Pradesh, J&K, Ladakh, North-Eastern states including Sikkim, Andaman & Nicobar, and Lakshadweep), the central subsidy rates are higher:\n   * **First 2 kW:** ₹33,000 per kW (₹66,000 for 2 kW)\n   * **Additional capacity between 2 kW and 3 kW:** ₹19,800 per kW\n   * **Total maximum Central CFA for a 3 kW system:** **₹85,800** (₹66,000 + ₹19,800), which is higher than the standard ₹78,000 cap for other states.\n\n2. **Additional State Subsidy:**\n   State/UT Governments are permitted to provide an **additional top-up subsidy** on top of the Central Financial Assistance (routed through the National Portal), further increasing the total subsidy amount received by the household.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-01T18:22:10.702940",
+  "status": "completed"
+}

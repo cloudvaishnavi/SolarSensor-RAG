@@ -1,0 +1,27 @@
+{
+  "question_id": "F03",
+  "category": "factual",
+  "question": "What is Carbon-First mode?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Carbon-First Mode** is an intelligent dispatch mode that maximizes the use of clean solar energy. \n\nKey features include:\n* **Prioritizing Self-Consumption:** It ensures maximum use of the solar power generated on-site.\n* **Minimizing Grid Imports:** It seeks to reduce reliance on grid electricity, which typically carries a higher carbon footprint.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-04T20:10:07.327717",
+  "status": "completed"
+}

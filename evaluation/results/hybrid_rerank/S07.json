@@ -1,0 +1,27 @@
+{
+  "question_id": "S07",
+  "category": "synthesis",
+  "question": "What happens to old Phase-II rooftop solar applications under the July 2025 amendments?",
+  "retrieved_sources": [
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Under the key amendments dated 07 July 2025 (Phase-II Transition):\n\n1. **Applications at the redeemed / inspected / installed stage:** These will remain eligible for Central Financial Assistance (CFA) provided the claim is received by **31 December 2025**.\n2. **Applications submitted but not installed as on 01 April 2025:** These are no longer eligible and will be deleted from the database. However, affected consumers can re-apply under the new PM Surya Ghar scheme.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-07T15:25:18.252839",
+  "status": "completed"
+}

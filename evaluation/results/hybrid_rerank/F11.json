@@ -1,0 +1,27 @@
+{
+  "question_id": "F11",
+  "category": "factual",
+  "question": "What does the Explainable Decision Log feature do?",
+  "retrieved_sources": [
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "01_dispatch_modes.txt",
+    "02_india_specific_logic.txt"
+  ],
+  "generated_answer": "Based on the provided documents, the **Explainable Decision Log** feature does the following:\n\n* **Generates Hourly Explanations:** For every hour, it provides a clear natural language explanation of why the system chose a specific energy routing decision (such as battery discharge, grid import, or solar use).\n* **Shows Impact Metrics:** It displays the estimated rupee impact and carbon reduction resulting from those energy decisions.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-06T12:03:23.991071",
+  "status": "completed"
+}

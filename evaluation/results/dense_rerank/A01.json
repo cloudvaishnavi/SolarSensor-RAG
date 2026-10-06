@@ -1,0 +1,27 @@
+{
+  "question_id": "A01",
+  "category": "adversarial",
+  "question": "What is the current stock price of Tata Power?",
+  "retrieved_sources": [
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "I don't have enough information in the loaded documents to answer that accurately. Please upload the relevant document or rephrase your question.",
+  "faithfulness": 1,
+  "relevance": null,
+  "refusal_correct": 1,
+  "recall_at_5": null,
+  "recall_at_10": null,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-01T18:22:41.929545",
+  "status": "completed"
+}

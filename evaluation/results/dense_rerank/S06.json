@@ -1,0 +1,27 @@
+{
+  "question_id": "S06",
+  "category": "synthesis",
+  "question": "How does PM Surya Ghar's CFA compare for a 1 kW versus a 5 kW system?",
+  "retrieved_sources": [
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt"
+  ],
+  "generated_answer": "Based on the provided documents, here is how the Central Financial Assistance (CFA) compares for a 1 kW system versus a 5 kW system under the PM Surya Ghar scheme:\n\n* **1 kW System:** \n  * Receives **₹30,000**. \n  * *Reasoning:* The scheme provides ₹30,000 per kW for the first 2 kW of capacity.\n\n* **5 kW System:** \n  * Receives **₹78,000**.\n  * *Reasoning:* The subsidy structure provides ₹30,000/kW for the first 2 kW (₹60,000) and ₹18,000 for the additional capacity between 2 kW and 3 kW (₹18,000), totaling ₹78,000. No additional subsidy is provided for capacity beyond 3 kW, strictly capping the maximum central assistance at ₹78,000 for any system size of 3 kW or larger (including 5 kW).\n\n**Comparison:**\nA 5 kW system receives the maximum capped subsidy of **₹78,000**, which is **₹48,000 higher** than the **₹30,000** subsidy provided for a 1 kW system.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-01T18:19:39.913132",
+  "status": "completed"
+}

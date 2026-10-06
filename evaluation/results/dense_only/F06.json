@@ -1,0 +1,27 @@
+{
+  "question_id": "F06",
+  "category": "factual",
+  "question": "What is the maximum central subsidy cap under PM Surya Ghar?",
+  "retrieved_sources": [
+    "04_pm_surya_ghar_official.txt",
+    "03_pm_surya_ghar.txt",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "03_pm_surya_ghar.txt",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Under the PM Surya Ghar: Muft Bijli Yojana, the maximum central subsidy (Central Financial Assistance / CFA) for individual residential systems is strictly capped at **₹78,000**. \n\nThis maximum cap applies to any residential system of 3 kW capacity or larger (e.g., 3 kW, 4 kW, 5 kW, 10 kW systems all receive the capped maximum subsidy of ₹78,000).",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-27T11:16:00.250356",
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "S02",
+  "category": "synthesis",
+  "question": "How does the system prepare for and handle power outages during monsoon season?",
+  "retrieved_sources": [
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "01_dispatch_modes.txt"
+  ],
+  "generated_answer": "Based on the provided documents, the system prepares for and handles power outages during the monsoon season through two main mechanisms:\n\n1. **Monsoon Pre-Charge:** The system detects the monsoon season or heavy precipitation forecasts. When rain is expected, it automatically tops up the battery from the grid in advance to prepare the house for possible power cuts.\n2. **Power-Cut Simulation:** The system predicts the risk of power outages based on wind speeds, local rain probability, and typical peak load hours. It uses these signals to decide when to retain more energy in the battery.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-28T09:49:17.073798",
+  "status": "completed"
+}

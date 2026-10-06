@@ -1,0 +1,27 @@
+{
+  "question_id": "F09",
+  "category": "factual",
+  "question": "When was PM Surya Ghar launched?",
+  "retrieved_sources": [
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt"
+  ],
+  "generated_answer": "Based on the provided documents, PM Surya Ghar: Muft Bijli Yojana was launched on **13 February 2024** (with Government of India approval noted on 29 February 2024).",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-28T09:46:47.045847",
+  "status": "completed"
+}

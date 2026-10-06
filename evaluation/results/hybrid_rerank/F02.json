@@ -1,0 +1,27 @@
+{
+  "question_id": "F02",
+  "category": "factual",
+  "question": "What is Backup Priority mode?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Backup Priority Mode** keeps the battery State of Charge (SoC) at 90% or higher most of the time. Its primary goal is to guarantee backup power during frequent grid outages.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-04T20:09:27.033840",
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "A03",
+  "category": "adversarial",
+  "question": "How do I cook solar-panel-shaped pancakes?",
+  "retrieved_sources": [
+    "03_pm_surya_ghar.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "I don't have enough information in the loaded documents to answer that accurately. Please upload the relevant document or rephrase your question.",
+  "faithfulness": 1,
+  "relevance": null,
+  "refusal_correct": 1,
+  "recall_at_5": null,
+  "recall_at_10": null,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-08T20:51:12.526969",
+  "status": "completed"
+}

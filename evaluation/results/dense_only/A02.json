@@ -1,0 +1,27 @@
+{
+  "question_id": "A02",
+  "category": "adversarial",
+  "question": "What is the weather forecast for Mumbai tomorrow?",
+  "retrieved_sources": [
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "I don't have enough information in the loaded documents to answer that accurately. Please upload the relevant document or rephrase your question.",
+  "faithfulness": 1,
+  "relevance": null,
+  "refusal_correct": 1,
+  "recall_at_5": null,
+  "recall_at_10": null,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-29T05:19:54.883257",
+  "status": "completed"
+}

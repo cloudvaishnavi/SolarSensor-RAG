@@ -1,0 +1,27 @@
+{
+  "question_id": "F05",
+  "category": "factual",
+  "question": "What is the subsidy for the first 2 kW under PM Surya Ghar?",
+  "retrieved_sources": [
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Under the PM Surya Ghar: Muft Bijli Yojana, the subsidy (Central Financial Assistance / CFA) for the first 2 kW capacity is:\n\n* **General Category:** **₹30,000 per kW** (totaling **₹60,000** for a 2 kW system).\n* **Special Category States/UTs** *(Uttarakhand, Himachal Pradesh, J&K, Ladakh, North-Eastern states including Sikkim, Andaman & Nicobar, and Lakshadweep)*: **₹33,000 per kW** (totaling **₹66,000** for a 2 kW system).",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "hybrid_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-04T20:17:56.253105",
+  "status": "completed"
+}

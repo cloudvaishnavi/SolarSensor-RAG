@@ -1,0 +1,27 @@
+{
+  "question_id": "S05",
+  "category": "synthesis",
+  "question": "What are the key eligibility conditions for receiving CFA under PM Surya Ghar?",
+  "retrieved_sources": [
+    "04_pm_surya_ghar_official.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, the key eligibility conditions for receiving Central Financial Assistance (CFA) under PM Surya Ghar are:\n\n* **Eligible Consumer Segment:** Must be a grid-connected rooftop solar installation on residential connections. Non-residential segments (such as commercial, industrial, and government buildings) are not eligible for CFA.\n* **Installation Placement:** Installations must be on a roof, terrace, balcony, or elevated structure.\n* **Domestic Content Requirement (DCR):** The installation must use DCR-compliant modules, meaning domestically manufactured modules made from domestically manufactured cells.\n* **Capacity Calculation:** CFA is determined based on the DC module capacity, not the inverter capacity.\n* **One-Time Scheme Benefit:** CFA is granted only once per installation. If an already installed system is relocated/shifted to a new location, it is not eligible for CFA again.\n* **System Expansion:** If a residential consumer or RWA has previously availed CFA under a prior/current MNRE scheme, they are eligible for additional CFA under PM Surya Ghar only for the balance capacity up to an overall plant size of 3 kW.",
+  "faithfulness": 0,
+  "relevance": 0,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-28T10:33:48.935552",
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "S03",
+  "category": "synthesis",
+  "question": "What is the total subsidy for a 2.5 kW rooftop solar system under PM Surya Ghar?",
+  "retrieved_sources": [
+    "03_pm_surya_ghar.txt",
+    "04_pm_surya_ghar_official.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt"
+  ],
+  "generated_answer": "Under the PM Surya Ghar: Muft Bijli Yojana, the total Central Financial Assistance (subsidy) for a 2.5 kW rooftop solar system is **Rs. 69,000**.\n\n**Breakdown of the calculation:**\n* **First 2 kW:** Rs. 30,000 per kW = Rs. 60,000\n* **Additional 0.5 kW (between 2 kW and 3 kW):** Rs. 18,000 per kW = Rs. 9,000\n* **Total Subsidy:** Rs. 60,000 + Rs. 9,000 = **Rs. 69,000**",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-31T18:47:00.623028",
+  "status": "completed"
+}

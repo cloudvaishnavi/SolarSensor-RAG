@@ -1,0 +1,13 @@
+India-Specific Solar Challenges and Solutions in SolarSmart Advisor
+
+Monsoon Pre-Charge:
+The system detects monsoon season or heavy precipitation forecasts. When rain is expected, it automatically tops up the battery from the grid in advance. This prepares the house for possible power cuts during heavy rains.
+
+Power-Cut Simulation:
+The system predicts the risk of power outages based on wind speeds, local rain probability, and typical peak load hours. It uses these signals to decide when to keep more energy in the battery.
+
+Dust-Loss Penalty:
+In India, dust accumulates quickly on solar panels and reduces efficiency. The system simulates a linear drop in panel efficiency due to dust. Users can trigger a "Clean Panels" action which restores the efficiency.
+
+Explainable Decision Log:
+For every hour, the system generates a clear natural language explanation of why it chose a particular energy routing decision (battery discharge, grid import, solar use, etc.). It also shows the estimated rupee impact and carbon reduction.

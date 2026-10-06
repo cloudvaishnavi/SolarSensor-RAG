@@ -1,0 +1,27 @@
+{
+  "question_id": "S04",
+  "category": "synthesis",
+  "question": "Which dispatch mode would be best suited for a household in an area with frequent grid outages, and why?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "02_india_specific_logic.txt",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt"
+  ],
+  "generated_answer": "Based on the provided documents, the **Backup Priority Mode** is best suited for a household in an area with frequent grid outages. \n\n**Why:** \nThis mode keeps the battery State of Charge (SoC) at 90% or higher most of the time, with the main goal of guaranteeing backup power during frequent grid outages.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-09-01T18:17:24.069725",
+  "status": "completed"
+}

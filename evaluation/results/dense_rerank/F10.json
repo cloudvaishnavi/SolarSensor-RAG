@@ -1,0 +1,27 @@
+{
+  "question_id": "F10",
+  "category": "factual",
+  "question": "What is the implementation period of PM Surya Ghar?",
+  "retrieved_sources": [
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "05_pm_surya_ghar_latest_updates.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "05_pm_surya_ghar_latest_updates.txt"
+  ],
+  "generated_answer": "The implementation period of the PM – Surya Ghar: Muft Bijli Yojana scheme is till **31st March, 2027** (FY 2026–27). All eligible claims are to be settled within this period.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-31T18:38:42.474308",
+  "status": "completed"
+}

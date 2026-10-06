@@ -1,0 +1,27 @@
+{
+  "question_id": "F07",
+  "category": "factual",
+  "question": "What is monsoon pre-charge?",
+  "retrieved_sources": [
+    "02_india_specific_logic.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Monsoon Pre-Charge** is a feature in the system that detects the monsoon season or heavy precipitation forecasts. \n\nWhen rain is expected, it automatically tops up the battery from the power grid in advance to prepare the house for potential power cuts during heavy rains.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-30T12:36:44.798681",
+  "status": "completed"
+}

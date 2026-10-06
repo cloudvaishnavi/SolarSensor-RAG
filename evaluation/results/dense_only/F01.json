@@ -1,0 +1,27 @@
+{
+  "question_id": "F01",
+  "category": "factual",
+  "question": "What is Cost-Save mode?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Cost-Save Mode** focuses on reducing electricity bills. \n\nIt works through a process called peak shaving by:\n* Discharging the battery during expensive evening peak hours (usually 6 PM to 10 PM).\n* Charging the battery during cheaper off-peak night slots.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-27T11:09:42.306569",
+  "status": "completed"
+}

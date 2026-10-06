@@ -1,0 +1,27 @@
+{
+  "question_id": "S08",
+  "category": "synthesis",
+  "question": "Does Carbon-First mode or Cost-Save mode do more to reduce grid dependence? Explain the difference.",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "02_india_specific_logic.txt",
+    "02_india_specific_logic.txt",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Carbon-First mode** does more to reduce grid dependence. \n\nHere is the difference between the two modes:\n\n* **Carbon-First Mode:** Prioritizes self-consumption of clean solar power and explicitly tries to **minimize importing electricity from the grid** (which often has a higher carbon footprint).\n* **Cost-Save Mode:** Focuses on reducing electricity bills through \"peak shaving.\" Instead of minimizing grid imports altogether, it intentionally **charges the battery from the grid during cheaper off-peak night slots** and discharges it during expensive evening peak hours (usually 6 PM to 10 PM).",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-29T05:18:24.152004",
+  "status": "completed"
+}

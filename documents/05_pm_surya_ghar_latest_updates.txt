@@ -1,0 +1,23 @@
+PM Surya Ghar: Muft Bijli Yojana - Latest Updates (as of July 2025)
+
+Key Amendments (Office Memorandum dated 07 July 2025):
+
+1. Phase-II Transition:
+- Applications under the old Phase-II rooftop solar programme that are already at redeemed / inspected / installed stage will remain eligible for CFA if the claim is received till 31 December 2025.
+- Applications that were submitted but not installed as on 01 April 2025 are no longer eligible and will be deleted from the database. Such consumers can re-apply under the new PM Surya Ghar scheme.
+
+2. Additional State Subsidy:
+- States/UTs can still give extra subsidy on top of central CFA.
+- The additional State/UT subsidy amount should be updated on the National Portal.
+
+3. Technical Specifications:
+- MNRE can amend the minimum technical specifications prospectively with the approval of Secretary, MNRE.
+- Vendors must still follow the latest technical specifications. DISCOMs will check this during inspection.
+
+Core CFA Structure remains the same:
+- First 2 kW: ₹30,000 per kW
+- Additional capacity between 2–3 kW: ₹18,000 per kW
+- Beyond 3 kW: No additional central subsidy (maximum central CFA = ₹78,000)
+
+Implementation period of the scheme continues till 31 March 2027.
+National Portal: https://pmsuryaghar.gov.in

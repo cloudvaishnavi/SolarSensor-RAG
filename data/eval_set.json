@@ -1,0 +1,331 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "frozen_at": "2026-08-24",
+    "note": "DO NOT edit questions or reference answers after baseline run — this would invalidate score comparisons.",
+    "total": 27,
+    "categories": {
+      "factual": 11,
+      "synthesis": 9,
+      "adversarial": 7
+    },
+    "source_docs": [
+      "01_dispatch_modes.txt",
+      "02_india_specific_logic.txt",
+      "03_pm_surya_ghar.txt",
+      "04_pm_surya_ghar_official.txt",
+      "05_pm_surya_ghar_latest_updates.txt",
+      "202404162127034309.pdf"
+    ]
+  },
+  "questions": [
+    {
+      "id": "F01",
+      "category": "factual",
+      "question": "What is Cost-Save mode?",
+      "reference_answer": "Cost-Save mode focuses on reducing electricity bills by discharging the battery during expensive evening peak hours (6 PM to 10 PM) and charging during cheaper off-peak night slots. This is called peak shaving.",
+      "key_facts": [
+        "reduces electricity bills",
+        "discharges battery during evening peak hours 6 PM to 10 PM",
+        "charges during off-peak night slots",
+        "peak shaving"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "F02",
+      "category": "factual",
+      "question": "What is Backup Priority mode?",
+      "reference_answer": "Backup Priority mode keeps the battery State of Charge (SoC) at 90% or higher most of the time. Its main goal is to guarantee backup power during frequent grid outages common in many parts of India.",
+      "key_facts": [
+        "keeps SoC at 90% or higher",
+        "guarantees backup power",
+        "designed for frequent grid outages in India"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "F03",
+      "category": "factual",
+      "question": "What is Carbon-First mode?",
+      "reference_answer": "Carbon-First mode maximizes the use of clean solar energy. It prioritizes self-consumption of solar power and tries to minimize importing electricity from the grid, which often has a higher carbon footprint.",
+      "key_facts": [
+        "maximizes clean solar energy use",
+        "prioritizes self-consumption",
+        "minimizes grid import",
+        "reduces carbon footprint"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "F04",
+      "category": "factual",
+      "question": "What is Balanced mode?",
+      "reference_answer": "Balanced mode keeps approximately 50% of the battery as a backup reserve. The remaining capacity is used for peak tariff savings, balancing reliability and cost savings.",
+      "key_facts": [
+        "50% battery kept as backup reserve",
+        "remaining capacity used for peak tariff savings",
+        "balances reliability and cost savings"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "F05",
+      "category": "factual",
+      "question": "What is the subsidy for the first 2 kW under PM Surya Ghar?",
+      "reference_answer": "Under PM Surya Ghar, the central financial assistance (CFA) for the first 2 kW of rooftop solar capacity is Rs. 30,000 per kW, so a 1 kW system receives Rs. 30,000 and a 2 kW system receives Rs. 60,000.",
+      "key_facts": [
+        "Rs. 30,000 per kW for first 2 kW",
+        "1 kW = Rs. 30,000",
+        "2 kW = Rs. 60,000"
+      ],
+      "ideal_source_docs": ["03_pm_surya_ghar.txt", "04_pm_surya_ghar_official.txt"]
+    },
+    {
+      "id": "F06",
+      "category": "factual",
+      "question": "What is the maximum central subsidy cap under PM Surya Ghar?",
+      "reference_answer": "The maximum central financial assistance (CFA) under PM Surya Ghar is capped at Rs. 78,000 for any residential system of 3 kWp or larger. No additional central subsidy is provided beyond 3 kW.",
+      "key_facts": [
+        "maximum CFA is Rs. 78,000",
+        "applies to systems 3 kW or larger",
+        "no additional subsidy beyond 3 kW"
+      ],
+      "ideal_source_docs": ["03_pm_surya_ghar.txt", "04_pm_surya_ghar_official.txt"]
+    },
+    {
+      "id": "F07",
+      "category": "factual",
+      "question": "What is monsoon pre-charge?",
+      "reference_answer": "Monsoon pre-charge is a feature where the system detects monsoon season or heavy precipitation forecasts and automatically tops up the battery from the grid in advance, preparing the house for possible power cuts during heavy rains.",
+      "key_facts": [
+        "detects monsoon or heavy precipitation forecasts",
+        "automatically tops up battery from grid in advance",
+        "prepares for power cuts during heavy rains"
+      ],
+      "ideal_source_docs": ["02_india_specific_logic.txt"]
+    },
+    {
+      "id": "F08",
+      "category": "factual",
+      "question": "What is the dust-loss penalty?",
+      "reference_answer": "The dust-loss penalty simulates a linear drop in panel efficiency due to dust accumulation, which happens quickly in India. Users can trigger a 'Clean Panels' action to restore efficiency.",
+      "key_facts": [
+        "simulates linear drop in panel efficiency due to dust",
+        "dust accumulates quickly in India",
+        "Clean Panels action restores efficiency"
+      ],
+      "ideal_source_docs": ["02_india_specific_logic.txt"]
+    },
+    {
+      "id": "F09",
+      "category": "factual",
+      "question": "When was PM Surya Ghar launched?",
+      "reference_answer": "PM Surya Ghar: Muft Bijli Yojana was launched on 13 February 2024.",
+      "key_facts": [
+        "launched 13 February 2024"
+      ],
+      "ideal_source_docs": ["04_pm_surya_ghar_official.txt"]
+    },
+    {
+      "id": "F10",
+      "category": "factual",
+      "question": "What is the implementation period of PM Surya Ghar?",
+      "reference_answer": "The implementation period of PM Surya Ghar continues till 31 March 2027.",
+      "key_facts": [
+        "implementation till 31 March 2027"
+      ],
+      "ideal_source_docs": ["04_pm_surya_ghar_official.txt", "05_pm_surya_ghar_latest_updates.txt"]
+    },
+    {
+      "id": "F11",
+      "category": "factual",
+      "question": "What does the Explainable Decision Log feature do?",
+      "reference_answer": "The Explainable Decision Log generates a clear natural language explanation for every hour about why the system chose a particular energy routing decision (battery discharge, grid import, solar use, etc.). It also shows the estimated rupee impact and carbon reduction.",
+      "key_facts": [
+        "generates hourly natural language explanations",
+        "explains energy routing decisions",
+        "shows estimated rupee impact",
+        "shows carbon reduction"
+      ],
+      "ideal_source_docs": ["02_india_specific_logic.txt"]
+    },
+    {
+      "id": "S01",
+      "category": "synthesis",
+      "question": "Compare Cost-Save mode and Backup Priority mode. What are their main differences?",
+      "reference_answer": "Cost-Save mode prioritizes reducing electricity bills by discharging the battery during evening peak hours (6–10 PM) and charging overnight at cheaper rates. Backup Priority mode, by contrast, keeps the battery SoC at 90%+ at all times to guarantee power during grid outages. Cost-Save mode trades off backup availability for savings; Backup Priority mode trades off bill savings for reliability.",
+      "key_facts": [
+        "Cost-Save: peak shaving, discharge 6–10 PM, charge overnight",
+        "Backup Priority: SoC at 90%+, designed for grid outages",
+        "Cost-Save trades reliability for savings",
+        "Backup Priority trades savings for reliability"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "S02",
+      "category": "synthesis",
+      "question": "How does the system prepare for and handle power outages during monsoon season?",
+      "reference_answer": "The system uses two complementary mechanisms: (1) Monsoon Pre-Charge automatically tops up the battery from the grid when heavy rains are forecast, preparing the house before outages strike. (2) Power-Cut Simulation predicts outage risk using wind speeds, rain probability, and peak load hours to decide how much energy to keep in the battery. Together, these features maximize backup availability during monsoon.",
+      "key_facts": [
+        "monsoon pre-charge tops up battery from grid in advance",
+        "power-cut simulation predicts outage risk from wind, rain, load",
+        "both features work together for monsoon resilience"
+      ],
+      "ideal_source_docs": ["02_india_specific_logic.txt"]
+    },
+    {
+      "id": "S03",
+      "category": "synthesis",
+      "question": "What is the total subsidy for a 2.5 kW rooftop solar system under PM Surya Ghar?",
+      "reference_answer": "For a 2.5 kW system: Rs. 60,000 for the first 2 kW (at Rs. 30,000/kW) plus Rs. 9,000 for the additional 0.5 kW (at Rs. 18,000/kW), totalling Rs. 69,000.",
+      "key_facts": [
+        "2.5 kW system gets Rs. 69,000",
+        "first 2 kW at Rs. 30,000/kW = Rs. 60,000",
+        "additional 0.5 kW at Rs. 18,000/kW = Rs. 9,000",
+        "total Rs. 69,000"
+      ],
+      "ideal_source_docs": ["04_pm_surya_ghar_official.txt", "03_pm_surya_ghar.txt"]
+    },
+    {
+      "id": "S04",
+      "category": "synthesis",
+      "question": "Which dispatch mode would be best suited for a household in an area with frequent grid outages, and why?",
+      "reference_answer": "Backup Priority mode is the best choice for areas with frequent grid outages because it keeps the battery SoC at 90% or higher at all times, ensuring substantial backup power is always available. The other modes (Cost-Save, Balanced, Carbon-First) sacrifice some backup capacity for bill savings or carbon reduction, making them less reliable when outages are frequent.",
+      "key_facts": [
+        "Backup Priority mode recommended for frequent outages",
+        "keeps SoC at 90%+",
+        "other modes sacrifice backup for other goals"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "S05",
+      "category": "synthesis",
+      "question": "What are the key eligibility conditions for receiving CFA under PM Surya Ghar?",
+      "reference_answer": "Key conditions: the installation must be on a residential grid-connected rooftop (roof, terrace, balcony, or elevated structure); must use Domestic Content Requirement (DCR) modules made from domestically manufactured cells; CFA is based on DC module capacity (not inverter capacity); CFA is given only once per installation; a minimum 5-year Comprehensive Maintenance Contract (CMC) is mandatory; vendors must register on the National Portal.",
+      "key_facts": [
+        "grid-connected residential rooftop only",
+        "must use DCR modules",
+        "CFA based on DC module capacity",
+        "given only once per installation",
+        "5-year CMC mandatory",
+        "vendor must register on national portal"
+      ],
+      "ideal_source_docs": ["04_pm_surya_ghar_official.txt"]
+    },
+    {
+      "id": "S06",
+      "category": "synthesis",
+      "question": "How does PM Surya Ghar's CFA compare for a 1 kW versus a 5 kW system?",
+      "reference_answer": "A 1 kW system receives Rs. 30,000 in CFA (Rs. 30,000/kW for first 2 kW). A 5 kW system also receives only Rs. 78,000 — the maximum cap — because no additional central subsidy is provided beyond 3 kW. This means the per-kW effective subsidy drops significantly for larger systems.",
+      "key_facts": [
+        "1 kW system: Rs. 30,000",
+        "5 kW system: Rs. 78,000 (capped)",
+        "no additional subsidy beyond 3 kW"
+      ],
+      "ideal_source_docs": ["03_pm_surya_ghar.txt", "04_pm_surya_ghar_official.txt"]
+    },
+    {
+      "id": "S07",
+      "category": "synthesis",
+      "question": "What happens to old Phase-II rooftop solar applications under the July 2025 amendments?",
+      "reference_answer": "Under the July 2025 amendment: Phase-II applications already at redeemed/inspected/installed stage remain eligible if the CFA claim is received by 31 December 2025. Applications submitted but not installed as of 1 April 2025 are no longer eligible and will be deleted — those consumers must re-apply under the new PM Surya Ghar scheme.",
+      "key_facts": [
+        "redeemed/inspected/installed Phase-II apps eligible till 31 Dec 2025",
+        "apps not installed by 1 April 2025 are deleted",
+        "deleted applicants must re-apply under new PM Surya Ghar scheme"
+      ],
+      "ideal_source_docs": ["05_pm_surya_ghar_latest_updates.txt"]
+    },
+    {
+      "id": "S08",
+      "category": "synthesis",
+      "question": "Does Carbon-First mode or Cost-Save mode do more to reduce grid dependence? Explain the difference.",
+      "reference_answer": "Carbon-First mode does more to reduce grid dependence because it specifically minimizes grid import by prioritizing self-consumption of solar power. Cost-Save mode actually relies on the grid for cheap off-peak night charging — it is optimizing for bill savings rather than grid independence. Carbon-First mode's primary goal is minimizing carbon footprint through reduced grid use.",
+      "key_facts": [
+        "Carbon-First minimizes grid import",
+        "Cost-Save charges from grid at off-peak hours (increases grid use)",
+        "Carbon-First prioritizes self-consumption",
+        "Cost-Save optimizes for bills not grid independence"
+      ],
+      "ideal_source_docs": ["01_dispatch_modes.txt"]
+    },
+    {
+      "id": "S09",
+      "category": "synthesis",
+      "question": "Can a household in a special category state receive more than Rs. 78,000 in subsidy? How?",
+      "reference_answer": "Yes. For special category states (Uttarakhand, Himachal Pradesh, J&K, Ladakh, North-East including Sikkim, A&N, Lakshadweep), the central CFA rates are higher: Rs. 33,000/kW for the first 2 kW and Rs. 19,800/kW for the 2–3 kW slab. Additionally, states/UTs can provide extra subsidy on top of the central CFA, so the total assistance can exceed Rs. 78,000 when state top-ups are included.",
+      "key_facts": [
+        "special category states get Rs. 33,000/kW for first 2 kW",
+        "Rs. 19,800/kW for 2-3 kW slab in special states",
+        "states can add extra subsidy on top of central CFA"
+      ],
+      "ideal_source_docs": ["04_pm_surya_ghar_official.txt", "05_pm_surya_ghar_latest_updates.txt"]
+    },
+    {
+      "id": "A01",
+      "category": "adversarial",
+      "question": "What is the current stock price of Tata Power?",
+      "reference_answer": "SHOULD REFUSE — Stock prices are not in the loaded documents.",
+      "key_facts": ["system should refuse", "no stock data in documents"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A02",
+      "category": "adversarial",
+      "question": "What is the weather forecast for Mumbai tomorrow?",
+      "reference_answer": "SHOULD REFUSE — Weather forecasts are not in the loaded documents.",
+      "key_facts": ["system should refuse", "no weather data in documents"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A03",
+      "category": "adversarial",
+      "question": "How do I cook solar-panel-shaped pancakes?",
+      "reference_answer": "SHOULD REFUSE — Cooking recipes are entirely out of scope.",
+      "key_facts": ["system should refuse", "completely out of scope"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A04",
+      "category": "adversarial",
+      "question": "Is PM Surya Ghar available in Pakistan?",
+      "reference_answer": "SHOULD REFUSE — The documents state PM Surya Ghar is an Indian government scheme for residential consumers in India. No information about Pakistan is in the loaded documents.",
+      "key_facts": ["system should refuse or state India-only", "no Pakistan-related info in docs"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A05",
+      "category": "adversarial",
+      "question": "What will the electricity tariff be in 2035?",
+      "reference_answer": "SHOULD REFUSE — Future tariff projections are not in the loaded documents.",
+      "key_facts": ["system should refuse", "no future tariff projections in documents"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A06",
+      "category": "adversarial",
+      "question": "Tell me a joke about solar panels.",
+      "reference_answer": "SHOULD REFUSE — Jokes are out of scope for this grounded assistant.",
+      "key_facts": ["system should refuse", "jokes are out of scope"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    },
+    {
+      "id": "A07",
+      "category": "adversarial",
+      "question": "What is the exact GPS coordinates of the nearest solar installation to my house?",
+      "reference_answer": "SHOULD REFUSE — GPS coordinates and location-specific installation data are not in the loaded documents.",
+      "key_facts": ["system should refuse", "no GPS or location data in documents"],
+      "ideal_source_docs": [],
+      "expected_behavior": "refusal"
+    }
+  ]
+}

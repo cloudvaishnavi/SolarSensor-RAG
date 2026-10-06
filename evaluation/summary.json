@@ -1,0 +1,29 @@
+{
+  "dense_only": {
+    "completed_questions": 27,
+    "unfinished_questions": 0,
+    "Recall@5": 1.0,
+    "Recall@10": 1.0,
+    "Faithfulness": 0.9259,
+    "Relevance": 2.7,
+    "Refusal Accuracy": 1.0
+  },
+  "dense_rerank": {
+    "completed_questions": 27,
+    "unfinished_questions": 0,
+    "Recall@5": 1.0,
+    "Recall@10": 1.0,
+    "Faithfulness": 0.963,
+    "Relevance": 3.0,
+    "Refusal Accuracy": 1.0
+  },
+  "hybrid_rerank": {
+    "completed_questions": 27,
+    "unfinished_questions": 0,
+    "Recall@5": 1.0,
+    "Recall@10": 1.0,
+    "Faithfulness": 0.963,
+    "Relevance": 3.0,
+    "Refusal Accuracy": 1.0
+  }
+}

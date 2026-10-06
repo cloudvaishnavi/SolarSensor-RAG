@@ -1,0 +1,27 @@
+{
+  "question_id": "S01",
+  "category": "synthesis",
+  "question": "Compare Cost-Save mode and Backup Priority mode. What are their main differences?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "04_pm_surya_ghar_official.txt",
+    "02_india_specific_logic.txt",
+    "03_pm_surya_ghar.txt"
+  ],
+  "generated_answer": "Based on the provided documents, here are the main differences between **Cost-Save Mode** and **Backup Priority Mode**:\n\n* **Primary Objective:**\n  * **Cost-Save Mode:** Focuses on reducing electricity bills through \"peak shaving.\"\n  * **Backup Priority Mode:** Focuses on guaranteeing backup power during frequent grid outages.\n\n* **Battery Usage & Operation:**\n  * **Cost-Save Mode:** Discharges the battery during expensive evening peak hours (usually 6 PM to 10 PM) and charges it during cheaper off-peak night slots.\n  * **Backup Priority Mode:** Maintains the battery State of Charge (SoC) at **90% or higher** most of the time to ensure power availability.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_rerank",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-31T18:41:03.685270",
+  "status": "completed"
+}

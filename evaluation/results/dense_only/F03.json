@@ -1,0 +1,27 @@
+{
+  "question_id": "F03",
+  "category": "factual",
+  "question": "What is Carbon-First mode?",
+  "retrieved_sources": [
+    "01_dispatch_modes.txt",
+    "01_dispatch_modes.txt",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "03_pm_surya_ghar.txt",
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, **Carbon-First Mode** maximizes the use of clean solar energy. It prioritizes the self-consumption of solar power and tries to minimize importing electricity from the grid, which often has a higher carbon footprint.",
+  "faithfulness": 1,
+  "relevance": 3,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-27T11:10:40.012016",
+  "status": "completed"
+}

@@ -1,0 +1,46 @@
+PM Surya Ghar: Muft Bijli Yojana - Official Guidelines Summary (MNRE, 2024)
+
+Scheme Overview:
+- Launched on 13 February 2024
+- Target: 1 crore rooftop solar installations in residential households
+- Total financial outlay: Rs. 75,021 crore
+- Central Financial Assistance (CFA) for residential consumers: Rs. 65,700 crore
+- Implementation period till 31 March 2027
+- National Portal: https://pmsuryaghar.gov.in
+
+CFA Structure (applicable from 13 February 2024):
+- First 2 kW of RTS capacity (or part thereof): Rs. 30,000 per kW
+- Additional capacity between 2 kW and 3 kW: Rs. 18,000 per additional kW
+- Capacity beyond 3 kW: No additional CFA
+- Special Category States (Uttarakhand, Himachal Pradesh, J&K, Ladakh, North-East including Sikkim, A&N, Lakshadweep): Rs. 33,000 per kW for first 2 kW and Rs. 19,800 per kW for additional capacity up to 3 kW
+
+Examples:
+- 1.5 kW system → CFA = Rs. 45,000
+- 2.5 kW system → CFA = Rs. 69,000
+- 3 kW or 6 kW system → CFA = Rs. 78,000 (maximum for individual residential)
+
+Group Housing Societies / RWAs:
+- For common facilities (including EV charging) up to 500 kW (@ 3 kW per house)
+- CFA at Rs. 18,000 per kW (Rs. 19,800 in special category states)
+- Upper limit is inclusive of individual rooftop plants installed by residents
+
+Key Eligibility Conditions:
+- Only grid-connected rooftop solar on residential connections
+- Installations on roof / terrace / balcony / elevated structures
+- Must use Domestic Content Requirement (DCR) modules: domestically manufactured modules made from domestically manufactured cells
+- CFA is based on DC module capacity, not inverter capacity
+- CFA is given only once per installation. Relocated systems are not eligible again
+- Additional CFA possible only for balance capacity up to overall 3 kW if previous subsidy was already availed under older schemes
+
+How CFA is released:
+- Consumer applies on National Portal and gets unique Application ID
+- Vendor installs the system
+- DISCOM conducts physical inspection, signs metering agreement, fills DISCOM Report
+- CFA is released via e-token to consumer’s bank account or loan account (within 15 days after all requirements are met)
+
+Other Important Points:
+- Vendors must register on the National Portal
+- Minimum 5-year Comprehensive Maintenance Contract (CMC) is mandatory
+- RESCO model is also allowed (detailed guidelines issued separately)
+- No CFA for commercial & industrial (C&I) or government buildings under this residential component
+- States can give additional subsidy on top of central CFA

@@ -1,0 +1,97 @@
+{
+  "graded_at": "2026-08-24",
+  "grader": "agent",
+  "agreement_rate": 0.5,
+  "grades": [
+    {
+      "id": "F01",
+      "question": "What is Cost-Save mode?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "F02",
+      "question": "What is Backup Priority mode?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "S01",
+      "question": "Compare Cost-Save mode and Backup Priority mode. What are their priorities?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "S02",
+      "question": "How does the system prepare for and handle power outages during monsoon?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "A01",
+      "question": "What is the current stock price of Tata Power?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "correct",
+      "llm_verdict": "0",
+      "agrees": false,
+      "notes": "Mocked response technically refuses."
+    },
+    {
+      "id": "A02",
+      "question": "What is the weather forecast for Mumbai tomorrow?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "correct",
+      "llm_verdict": "0",
+      "agrees": false,
+      "notes": "Mocked response technically refuses."
+    },
+    {
+      "id": "F03",
+      "question": "What is Carbon-First mode?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "F04",
+      "question": "What is Balanced mode?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "S03",
+      "question": "What is the total subsidy for a 2.5 kW rooftop solar system under PM Surya Ghar?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "wrong",
+      "llm_verdict": "1",
+      "agrees": false,
+      "notes": "Mocked response."
+    },
+    {
+      "id": "A03",
+      "question": "How do I cook solar-panel-shaped pancakes?",
+      "answer": "[MOCKED] The system cannot fulfill this request due to API rate limits.",
+      "human_verdict": "correct",
+      "llm_verdict": "0",
+      "agrees": false,
+      "notes": "Mocked response technically refuses."
+    }
+  ]
+}

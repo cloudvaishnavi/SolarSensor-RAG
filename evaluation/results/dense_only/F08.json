@@ -1,0 +1,27 @@
+{
+  "question_id": "F08",
+  "category": "factual",
+  "question": "What is the dust-loss penalty?",
+  "retrieved_sources": [
+    "02_india_specific_logic.txt",
+    "202404162127034309.pdf",
+    "01_dispatch_modes.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "02_india_specific_logic.txt",
+    "03_pm_surya_ghar.txt",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf",
+    "202404162127034309.pdf"
+  ],
+  "generated_answer": "Based on the provided documents, the **Dust-Loss Penalty** accounts for the quick accumulation of dust on solar panels in India, which reduces their efficiency. \n\nThe system simulates a linear drop in panel efficiency due to dust, and users can trigger a **\"Clean Panels\"** action to restore the efficiency.",
+  "faithfulness": 0,
+  "relevance": 0,
+  "refusal_correct": null,
+  "recall_at_5": 1.0,
+  "recall_at_10": 1.0,
+  "retrieval_mode": "dense_only",
+  "model_name": "gemini-3.6-flash",
+  "timestamp": "2026-08-27T11:48:23.552548",
+  "status": "completed"
+}

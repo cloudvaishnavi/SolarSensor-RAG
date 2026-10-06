@@ -1,0 +1,13 @@
+PM Surya Ghar Muft Bijli Yojana - Official Subsidy Information & Slab Structure
+
+This is a major Indian government central financial assistance (CFA) scheme launched by the Ministry of New and Renewable Energy (MNRE) to promote residential rooftop solar installations across India.
+
+Official Subsidy (CFA) Slab Structure:
+1. First 2 kW Capacity: ₹30,000 per kW (e.g., ₹30,000 for 1 kW system; ₹60,000 for 2 kW system).
+2. Additional Capacity from 2 kW to 3 kW: ₹18,000 per kW (e.g., ₹60,000 + ₹18,000 = ₹78,000 for a 3 kW system).
+3. Systems Beyond 3 kW Capacity: No additional central subsidy is provided. The maximum central financial assistance (subsidy) is strictly capped at ₹78,000 for any residential system of 3 kWp or larger (e.g., 3 kW, 4 kW, 5 kW, 10 kW systems all receive the capped maximum subsidy of ₹78,000).
+
+Key Goals & Features:
+- Designed to provide free/discounted electricity up to 300 units/month for households.
+- SolarSmart Advisor includes a Payback Tracker that calculates exact net system cost and break-even ROI period after applying the ₹78,000 maximum subsidy cap.
+- Always verify local DISCOM regulations and the latest official portal guidelines at pmsuryaghar.gov.in as state-level top-up subsidies may vary.

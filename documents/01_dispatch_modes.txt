@@ -1,0 +1,13 @@
+SolarSmart Advisor - Intelligent Rule-Based Dispatch Modes
+
+Cost-Save Mode:
+This mode focuses on reducing electricity bills. It discharges the battery during expensive evening peak hours (usually 6 PM to 10 PM) and charges the battery during cheaper off-peak night slots. This is called peak shaving.
+
+Backup Priority Mode:
+This mode keeps the battery State of Charge (SoC) at 90% or higher most of the time. The main goal is to guarantee backup power during frequent grid outages common in many parts of India.
+
+Carbon-First Mode:
+This mode maximizes the use of clean solar energy. It prioritizes self-consumption of solar power and tries to minimize importing electricity from the grid (which often has higher carbon footprint).
+
+Balanced Mode:
+This mode keeps approximately 50% of the battery as a backup reserve. The remaining capacity is used for peak tariff savings. It tries to balance reliability and cost savings.
