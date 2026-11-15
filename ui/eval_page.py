@@ -49,9 +49,9 @@ def _cached_manual_grades():
 
 def _score_color(score: float | None, T: dict, threshold_high=0.8, threshold_low=0.5) -> str:
     if score is None:
-        return "#64748B"
+        return "#64756B"
     if score >= threshold_high:
-        return "#10B981"
+        return "#087F5B"
     if score >= threshold_low:
         return "#F59E0B"
     return "#EF4444"
@@ -61,15 +61,15 @@ def _verdict_badge(category: str, r: dict, T: dict) -> str:
     if category == "adversarial":
         v = r.get("refusal_correct")
         if v == 1:
-            return "<span style='background:#0A2E22;color:#10B981;border:1px solid #10B981;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>✅ Refused</span>"
+            return "<span style='background:#052E24;color:#20C997;border:1px solid #20C997;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>✅ Refused</span>"
         elif v == 0:
             return "<span style='background:#2D0A0A;color:#EF4444;border:1px solid #EF4444;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>❌ Hallucinated</span>"
-        return "<span style='color:#64748B;font-size:0.72rem;'>—</span>"
+        return "<span style='color:#64756B;font-size:0.72rem;'>—</span>"
     else:
         faith = r.get("faithfulness", 0) or 0
         relev = r.get("relevance", 0) or 0
         if faith == 1 and relev >= 2:
-            return "<span style='background:#0A2E22;color:#10B981;border:1px solid #10B981;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>✅ Good</span>"
+            return "<span style='background:#052E24;color:#20C997;border:1px solid #20C997;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>✅ Good</span>"
         elif faith == 1 and relev == 1:
             return "<span style='background:#1E1A14;color:#F59E0B;border:1px solid #F59E0B;border-radius:2px;padding:2px 8px;font-size:0.72rem;font-weight:700;'>⚠️ Partial</span>"
         else:
@@ -230,7 +230,7 @@ def _render_before_after_table(summary_all_modes: dict, T: dict):
             f"<td style='padding:10px 12px;color:#F8FAFC;font-weight:600;'>{label}</td>"
             f"<td style='padding:10px 12px;text-align:center;color:#3B82F6;font-weight:700;'>{v_dense}</td>"
             f"<td style='padding:10px 12px;text-align:center;color:#F59E0B;font-weight:700;'>{v_dr}</td>"
-            f"<td style='padding:10px 12px;text-align:center;color:#10B981;font-weight:700;'>{v_hr}</td>"
+            f"<td style='padding:10px 12px;text-align:center;color:#087F5B;font-weight:700;'>{v_hr}</td>"
             f"</tr>"
         )
 
@@ -259,9 +259,9 @@ def _render_score_distribution(per_q: list, T: dict):
                 {"Count": [unfaithful, faithful]},
                 index=pd.Index(["Unfaithful (0)", "Faithful (1)"], name="Score"),
             )
-            st.bar_chart(faith_df, color="#10B981")
+            st.bar_chart(faith_df, color="#087F5B")
         except ImportError:
-            st.bar_chart({"Faithful (1)": faithful, "Unfaithful (0)": unfaithful}, color="#10B981")
+            st.bar_chart({"Faithful (1)": faithful, "Unfaithful (0)": unfaithful}, color="#087F5B")
 
     with col_relev:
         st.caption("Relevance score (0–3)")
@@ -307,7 +307,7 @@ def _render_score_distribution(per_q: list, T: dict):
             )
 
         cols = st.columns(3 if unknown else 2)
-        cols[0].markdown(_refusal_box("✅ Correctly Refused", refused_ok, "#10B981"),   unsafe_allow_html=True)
+        cols[0].markdown(_refusal_box("✅ Correctly Refused", refused_ok, "#087F5B"),   unsafe_allow_html=True)
         cols[1].markdown(_refusal_box("❌ Hallucinated",      hallucinated, "#EF4444"), unsafe_allow_html=True)
         if unknown:
             cols[2].markdown(_refusal_box("❓ Unknown", unknown, "#64748B"), unsafe_allow_html=True)

@@ -37,3 +37,9 @@ dist/
 
 # Backup files
 *_backup*.py
+.streamlit/secrets.toml
+.streamlit/credentials.toml# Antigravity temporary verification files
+scratch/
+backup_phase1/
+venv_backup_*/
+.streamlit/credentials.toml
